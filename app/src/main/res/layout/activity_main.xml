@@ -31,21 +31,20 @@
         android:id="@+id/startButton"
         android:layout_width="71dp"
         android:layout_height="76dp"
+        android:background="@android:color/transparent"
         android:backgroundTint="#0000000B"
         android:text="▶"
         android:textColor="#FFCC00"
         android:textSize="30dp"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="319dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="32dp"
-        android:layout_marginBottom="20dp"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94" />
 
 
     <!-- Título de la aplicación -->
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -64,6 +63,8 @@
 
 
             />
+
+
     </LinearLayout>
 
 
