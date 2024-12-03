@@ -22,7 +22,7 @@
             android:scaleType="centerCrop" />
 
         <TextView
-            android:id="@+id/pokemonImageFav"
+            android:id="@+id/pokemonNameFav"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"

@@ -15,7 +15,7 @@ class FavoritesAdapter(private val favorites: List<Pokemon>, private val onClick
 
     inner class FavoritesViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val pokemonImage: ImageView = view.findViewById(R.id.pokemonImageFav)
-        val pokemonName: TextView = view.findViewById(R.id.pokemonName)
+        val pokemonName: TextView = view.findViewById(R.id.pokemonNameFav)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FavoritesViewHolder {

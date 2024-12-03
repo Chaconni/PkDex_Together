@@ -20,12 +20,14 @@ import retrofit2.Response
 
 class PokeDetailsActivity : AppCompatActivity() {
 
-    private var pokemonId = 1               //Empezar en el pokemon id 1
+    private var pokemonId =1               //Empezar en el pokemon id 1
     private val maxPokemonId = 1010         //Id del ultimo pokemon
     private val apiService = PokeApiClient.retrofit.create(PokeApiService::class.java)   //api
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        pokemonId = intent.getIntExtra("POKEMON_ID",1)
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.pkdex_layout)
 
